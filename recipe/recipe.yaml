@@ -1,7 +1,7 @@
 schema_version: 1
 
 context:
-  version: "0.9.15"
+  version: "0.9.16"
 
 package:
   name: tonio
@@ -9,10 +9,10 @@ package:
 
 source:
   - url: https://pypi.org/packages/source/t/tonio/tonio-${{ version }}.tar.gz
-    sha256: d97291b745df02333925e2949d1f8fd0222c9de6de090e3ea4c18e21b3b1369c
+    sha256: 1487e5ba9990ac6776495a8fb88563b831413c6a23918be93c4f63891dcc7f2e
 
 build:
-  number: 1
+  number: 0
   skip:
     - win
     - match(python, "<3.14")
