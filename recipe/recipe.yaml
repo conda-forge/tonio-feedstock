@@ -1,7 +1,7 @@
 schema_version: 1
 
 context:
-  version: "0.10.1"
+  version: "0.10.2"
 
 package:
   name: tonio
@@ -9,7 +9,7 @@ package:
 
 source:
   - url: https://pypi.org/packages/source/t/tonio/tonio-${{ version }}.tar.gz
-    sha256: 000ff5539a197c850de0969804464f33c4f8c2b00818b5e8074eef14967f1e7e
+    sha256: 8816d9bff7731db78ad5c7070cf53a3353b65545ec77d99bc8a2301cf7134fb1
 
 build:
   number: 0
